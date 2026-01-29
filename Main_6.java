@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main_6 {
+public class Taks6 {
     public static void main(String[] args){
         Scanner few = new Scanner(System.in);
 
@@ -34,7 +34,5 @@ public class Main_6 {
         }
 
         System.out.println("AND: " + And + ", OR: " + Or);
-        
-        few.close();
     }
 }
