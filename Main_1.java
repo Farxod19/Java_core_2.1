@@ -1,27 +1,29 @@
 import java.util.Scanner;
 
-public class Main_1 {
+public class Taks1 {
     public static void main(String[] args){
         Scanner few=new Scanner(System.in);
+
+        System.out.print("x1: ");
+        double x1=few.nextDouble();
+
+        System.out.print("y1: ");
+        double y1=few.nextDouble();
+
+        System.out.print("x2: ");
+        double x2=few.nextDouble();
         
-        System.out.print("x1= ");
-        int x1=few.nextInt();
+        System.out.print("y2: ");
+        double y2=few.nextDouble();
 
-        System.out.print("y1= ");
-        int y1=few.nextInt();
+        double S=calculateDistance(x1, y1, x2, y2);
 
-        System.out.print("x2= ");
-        int x2=few.nextInt();
-        
-        System.out.print("y2= ");
-        int y2=few.nextInt();
-        
-        int a=x2-x1;
-        int b=y2-y1;
+        System.out.print("Javob: " + S);
+    }
 
-        double S=Math.sqrt(a*a+b*b);
-
-        System.out.print("Javob:" + S);
-
+    public static double calculateDistance(double x1, double y1, double x2, double y2){
+        double a=x2-x1;
+        double b=y2-y1;
+        return Math.sqrt(a*a+b*b);
     }
 }
