@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main_5{
+public class Taks5 {
     public static void main(String[] args){
         Scanner few=new Scanner(System.in);
 
@@ -10,5 +10,5 @@ public class Main_5{
         String reverse=new StringBuilder(a).reverse().toString();
 
         System.out.print("Natija: " + reverse);
-    }
+}
 }
