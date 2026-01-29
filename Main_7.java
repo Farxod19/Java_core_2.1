@@ -1,14 +1,18 @@
 import java.util.Scanner;
 
-public class Main_7 {
+public class Taks7 {
     public static void main(String[] args){
-        Scanner few=new Scanner(System.in);
-        
+        Scanner few = new Scanner(System.in);
+
         System.out.print("Fahrenheit: ");
-        double F=few.nextDouble();
+        double fahrenheit = few.nextDouble(); 
 
-        double S=(F-32)*5/9;
+        double celsius = calculateF(fahrenheit);
 
-        System.out.print("Celsius: " + S);
+        System.out.print("Celsius: " + celsius);
+    }
+
+    public static double calculateF(double F){
+        return (F - 32)*5/9;
     }
 }
