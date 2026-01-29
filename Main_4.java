@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main_4{
+public class Taks4 {
     public static void main(String[] args){
         Scanner few=new Scanner(System.in);
 
@@ -14,7 +14,8 @@ public class Main_4{
         }
         else {
             System.out.println("Parol chuda sodda!");
-            System.out.print("kamida 8 ta harf, sinvol, son bolishi shart");
+            System.out.print("kamida 1 ta harf, sinvol, son bolishi shart");
         }
+
     }
 }
